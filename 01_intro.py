@@ -73,3 +73,56 @@ print('Python\n3.7')
 print("""Python
 3.7""")
 
+# %%
+print('\tPython')
+print('\t\t\tPython')
+
+
+# %%
+print('C:\path\to\something\new')
+print('C:\path\\to\something\\new')
+print(r'C:\path\to\something\new')
+print('C:\\path\\to\\something\\new')
+
+# %%
+import os
+os.getcwd()
+
+# %%
+print("""
+Instrukcja uruchamiania pliku przyklad.py:
+
+    --file [nazwa pliku]
+        zapisuje output do pliku
+        
+    --quiet
+        wycisza logi w konsoli
+        
+Koniec.""")
+
+# %%
+text = 'I love Python. '
+print(text)
+print(text * 7)
+print('hau...' * 8)
+
+# %%
+'Python'
+'Py' 'thon'
+print('Py' 'thon')
+
+# %%
+name = 'Python'
+print(name + ' 3.7')
+print(name, '3.7')
+
+# %%
+age = 31
+imie = 'Mateusz'
+
+print(imie + ' ' + str(age))
+print(imie, age)
+print('{} ma {} lat'.format(imie, age))
+
+# %%
+
