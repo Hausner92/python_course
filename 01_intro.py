@@ -123,6 +123,47 @@ imie = 'Mateusz'
 print(imie + ' ' + str(age))
 print(imie, age)
 print('{} ma {} lat'.format(imie, age))
+print(f'{imie} ma {age} lat')
+# %%
+saldo = 40
+saldo += 30
+saldo -= 10
+
+print(saldo)
 
 # %%
+lokata = 1000
+czynnik_akumulacyjny = 1 + 0.04
+lokata_po_roku = lokata * czynnik_akumulacyjny
 
+print('Wartosc lokaty po roku:', lokata_po_roku)
+
+# %%
+pixel = 150
+pixel /= 255
+
+print(pixel)
+
+# %%
+base = 2
+base **= 5
+
+print(base)
+
+# %%
+x = 103
+x %= 10
+
+print(x)
+
+# %%
+imie = 'Mateusz '
+nazwisko = 'Hausner'
+imie += nazwisko 
+
+# %%
+name = 'Python '
+version = '3.7'
+name += version
+
+print(name)

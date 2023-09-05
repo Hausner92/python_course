@@ -35,3 +35,24 @@ print(f'{name}|{age}|{height}')
 # %% albo
 
 print(name, age, height, sep='|')
+
+# %% ćwiczenie 5
+
+initial_amount = 1000
+interest_rate = 5
+duration = 2
+wartosc_koncowa = initial_amount * (1 + interest_rate / 100) ** duration
+
+print(wartosc_koncowa)
+
+# %% ćwiczenie 6
+
+result = (5 + 3) * 2 / 4
+print(f'The result is {result}.')
+
+# %% ćwiczenie 6
+
+radius = 5
+pi = 3.14159
+circumference = 2 * pi * radius
+print(f'The circumference of the circle is {circumference}.')
