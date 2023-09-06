@@ -1,10 +1,10 @@
 # Hello, Python 🐍!
 
-*Because Pathon is used in automated tests, I made the decision to learn it. <br>
-The course, which is offered on the Udemy website, covers all the fundamentals of Pathon. <br>
+*Because Python is used in automated tests, I made the decision to learn it. <br>
+The course, which is offered on the Udemy website, covers all the fundamentals of Python. <br>
 Created by [Paweł Krakowiak](https://e-smartdata.org/).*
 
-*If you want, here you can see my progress with Pathon.* 🎓
+*If you want, here you can see my progress with Python.* 🎓
 
 *The code created during the video lesson is in the "01_intro.py" file. <br>
 The practice exercises code can be found in the "exercises.py" file.*
