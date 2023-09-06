@@ -50,9 +50,21 @@ print(wartosc_koncowa)
 result = (5 + 3) * 2 / 4
 print(f'The result is {result}.')
 
-# %% ćwiczenie 6
+# %% ćwiczenie 7
 
 radius = 5
 pi = 3.14159
 circumference = 2 * pi * radius
 print(f'The circumference of the circle is {circumference}.')
+
+# %% ćwiczenie 8
+
+text = 'Python-is-amazing'
+print('First three characters:', text[:3])
+print('Last two characters:', text[-2:])
+
+# %%
+
+text= 'Python is amazing!'
+print('Reversed text:', text[::-1])
+
