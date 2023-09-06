@@ -6,8 +6,13 @@ Created by [Paweł Krakowiak](https://e-smartdata.org/).*
 
 *If you want, here you can see my progress with Python.* 🎓
 
-*The code created during the video lesson is in the "01_intro.py" file. <br>
-The practice exercises code can be found in the "exercises.py" file.*
+*The code created during the video lesson:* <br>
+*- 01_intro.py* <br>
+*- 02_input.py* <br>
+*- 03_zmienne.py* <br>
+*- 04_wycinanie.py* <br>
+
+*The practice exercises code can be found in the "exercises.py" file.*
 
 ## Website 🌐
 
