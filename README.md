@@ -1,20 +1,26 @@
 # Hello, Python 🐍!
 
-*Because Python is used in automated tests, I made the decision to learn it. <br>
-The course, which is offered on the Udemy website, covers all the fundamentals of Python. <br>
-Created by [Paweł Krakowiak](https://e-smartdata.org/).*
 
-*Here is a [link](https://www.udemy.com/course/programowanie-w-jezyku-python/) to the course and his complete description.*
 
-*If you want, here you can see my progress with Python.* 🎓
+*I decided to learn Python because it is a popular language in test automation. <br>
+I want to develop myself in the field, so... <br>
+I started this course, and I hope that it will help me better understand this language and test automation.<br>
+The course is offered on the Udemy website. <br>
+Was created by [Paweł Krakowiak](https://e-smartdata.org/) and teaches the fundamentals of Python. <br>*
+
+*Here you can find a [link](https://www.udemy.com/course/programowanie-w-jezyku-python/) to the course and its complete description.*
+
+*If you want, you can follow my progress with Python.* 🎓
 
 *The code created during the video lesson:* <br>
 *- 01_intro.py* <br>
 *- 02_input.py* <br>
 *- 03_zmienne.py* <br>
 *- 04_wycinanie.py* <br>
+*- 05_typy_danych* <br>
+*- 06_string_metody.py* <br>
 
-*The practice exercises code can be found in the "exercises.py" file.*
+*The practice exercises code can be found in the <b>"exercises.py"</b> file.*
 
 ## Website 🌐
 
