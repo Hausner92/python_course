@@ -9,10 +9,14 @@ imie = 'Jan'
 wiek =30
 print(imie, wiek)
 
-print('Cześć, ', end='')
+# 'end' okresla co zostanie wydrukowane na końcu ostatniej linii tekstu
+
+print('Cześć, ', end='') 
 print ('świecie')
 
 print('Cześć', 'świecie!', sep='+')
+
+# 'file' okresla, gdzie zostanie zapisany wydruk funkcji
 
 with open ('plik.txt', 'w') as f:
     print('Cześć, świecie!', file=f)

@@ -17,5 +17,7 @@ age = input('Podaj wiek: ')
 
 print(f'Czesc {name}! Masz {age} lat.')
 
-# %%
+# %% zmiana wartosci typu 'str' na 'int'
 age = int(input('Podaj wiek: '))
+
+
