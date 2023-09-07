@@ -4,6 +4,8 @@
 The course, which is offered on the Udemy website, covers all the fundamentals of Python. <br>
 Created by [Paweł Krakowiak](https://e-smartdata.org/).*
 
+*Here is a [link](https://www.udemy.com/course/programowanie-w-jezyku-python/) to the course and his complete description.*
+
 *If you want, here you can see my progress with Python.* 🎓
 
 *The code created during the video lesson:* <br>
