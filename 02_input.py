@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# %%
+# %% pobieranie dancyh od użytkownika
 imie = input('Podaj swoje imie: ')
 
 # print('Czesc', imie)
@@ -20,4 +20,4 @@ print(f'Czesc {name}! Masz {age} lat.')
 # %% zmiana wartosci typu 'str' na 'int'
 age = int(input('Podaj wiek: '))
 
-
+# w funkcji input wszystkie wprowadzane dane są stringiem

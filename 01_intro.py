@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 print ('Cześć, świecie')
 
@@ -10,18 +10,24 @@ wiek =30
 print(imie, wiek)
 
 # 'end' okresla co zostanie wydrukowane na końcu ostatniej linii tekstu
+# domyślnie jest to znak nowej linii "\n"
+# end='' zapobiega automatycznemu przechodzeniu do nowej linii po każdym wywołaniu funkcji print().
 
 print('Cześć, ', end='') 
 print ('świecie')
 
+# argument "sep" pozwala zmienić separator używany pomiędzy elementami
+# domyslne zachowanie argumentu "sep"nie oddziela argumentów przecinkami, ale dodaje spacje między nimi
+
 print('Cześć', 'świecie!', sep='+')
 
-# 'file' okresla, gdzie zostanie zapisany wydruk funkcji
+# file, pozwala na przekierowanie wydruku do innego miejsca, zamiast domyślnie na konsolę. 
+# Na przykład, można przekierować wydruk do pliku
 
 with open ('plik.txt', 'w') as f:
     print('Cześć, świecie!', file=f)
 
-# %%    
+# %% 
 print(2 + 2)
 
 # %%
@@ -31,23 +37,24 @@ print(3 * 3)
 print(3 + 2 * 2)
 print(4 - 2 * 2)
 
-# %%
+# %% wynikiem dzielenie będzie liczba zmienno przecinkowa
 10 / 3
 4 / 2 
 
-# %%
+# %% dzielenie całkowite (bez liczb po przecinku)
 10 // 3
 7 // 6
 
-# %%
+# %% potęgowanie
 2 ** 5 
 
-# %%
+# %% operator modulo zwraca reszte dzielenia np. 10 / 3
+# wynikiem będzie zbiór liczb od 0 do liczby o jeden mniejszej przez którą dzielimy 
 10 % 3
 12 % 5
 11 % 2
 
-# %%
+# %% 
 (10 - 2 ** 3) * 10
 
 # %%
@@ -70,14 +77,14 @@ print('It\'s the best!')
 # %%
 print('Python3.7')
 
-# %%
+# %% "\n3" znak nowej lini
 print('Python\n3.7')
 
-# %%
+# %% """ """ formatuje tekst tak jak został przez nas napisany
 print("""Python
 3.7""")
 
-# %%
+# %% "\t" tworzy nam wcięcie (tab) 
 print('\tPython')
 print('\t\t\tPython')
 
@@ -89,8 +96,8 @@ print(r'C:\path\to\something\new')
 print('C:\\path\\to\\something\\new')
 
 # %%
-import os
-os.getcwd()
+import os   # importowanie biblioteki os
+os.getcwd() # wywołanie sciezki katalogu roboczego
 
 # %%
 print("""
@@ -104,7 +111,7 @@ Instrukcja uruchamiania pliku przyklad.py:
         
 Koniec.""")
 
-# %%
+# %% znakiem mnożenia wskazujemy ilosc powtórzeń tekstu
 text = 'I love Python. '
 print(text)
 print(text * 7)
@@ -124,7 +131,7 @@ print(name, '3.7')
 age = 31
 imie = 'Mateusz'
 
-print(imie + ' ' + str(age))
+print(imie + ' ' + str(age)) # funkcja "str" konwertuje podaną wartosc na string
 print(imie, age)
 print('{} ma {} lat'.format(imie, age))
 print(f'{imie} ma {age} lat')

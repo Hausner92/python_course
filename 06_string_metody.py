@@ -68,7 +68,7 @@ hashtags[:idx]
 '   python   '.rstrip() # wycięcie białych znaków po prawej stronie
 '   python   '.lstrip() # wycięcie białych znaków po lewej stronie
 
-# %% podzielenie wartosci tekstowcyh na dane
+# %% rozdzielenie łańcucha znaków na listę elementów według okreslonego separatora
 '1,2,3,4,5'.split(',')
 
 'python java php sql sas'.split()
@@ -78,4 +78,5 @@ hashtags[:idx]
 # %% wypełnia wartosci odpowiednią liczbą zer
 '12'.zfill(5)
 
-
+# %%
+'hello'[1:]
