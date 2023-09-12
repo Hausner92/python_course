@@ -13,14 +13,18 @@ Was created by [Paweł Krakowiak](https://e-smartdata.org/) and teaches the fund
 *If you want, you can follow my progress with Python.* 🎓
 
 *The code created during the video lesson:* <br>
-*- 01_intro.py* <br>
-*- 02_input.py* <br>
-*- 03_zmienne.py* <br>
-*- 04_wycinanie.py* <br>
-*- 05_typy_danych* <br>
-*- 06_string_metody.py* <br>
+#### *01_podstawy* <br>
+  *- 01_intro.py* <br>
+  *- 02_input.py* <br>
+  *- 03_zmienne.py* <br>
+  *- 04_wycinanie.py* <br>
+  *- 05_typy_danych.py* <br>
+  *- 06_string_metody.py* <br>
 
-*The practice exercises code can be found in the <b>"exercises.py"</b> file.*
+#### *02_struktury_danych* <br>
+  *- 01_zbiory.py* <br>
+
+*The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder.*
 
 ## Website 🌐
 
