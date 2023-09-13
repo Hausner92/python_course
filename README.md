@@ -1,30 +1,34 @@
 # Hello, Python 🐍!
 
-
-
-*I decided to learn Python because it is a popular language in test automation. <br>
+_I decided to learn Python because it is a popular language in test automation. <br>
 I want to develop myself in the field, so... <br>
 I started this course, and I hope that it will help me better understand this language and test automation.<br>
 The course is offered on the Udemy website. <br>
-Was created by [Paweł Krakowiak](https://e-smartdata.org/) and teaches the fundamentals of Python. <br>*
+Was created by [Paweł Krakowiak](https://e-smartdata.org/) and teaches the fundamentals of Python. <br>_
 
-*Here you can find a [link](https://www.udemy.com/course/programowanie-w-jezyku-python/) to the course and its complete description.*
+_Here you can find a [link](https://www.udemy.com/course/programowanie-w-jezyku-python/) to the course and its complete description._
 
-*If you want, you can follow my progress with Python.* 🎓
+_If you want, you can follow my progress with Python._ 🎓
 
-*The code created during the video lesson:* <br>
-#### *01_podstawy*
-  *- 01_intro.py* <br>
-  *- 02_input.py* <br>
-  *- 03_zmienne.py* <br>
-  *- 04_wycinanie.py* <br>
-  *- 05_typy_danych.py* <br>
-  *- 06_string_metody.py* <br>
+_The code created during the video lesson:_ <br>
 
-#### *02_struktury_danych*
-  *- 01_zbiory.py* <br>
+#### _01_podstawy_
 
-*The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder.*
+_- 01_intro.py_ <br>
+_- 02_input.py_ <br>
+_- 03_zmienne.py_ <br>
+_- 04_wycinanie.py_ <br>
+_- 05_typy_danych.py_ <br>
+_- 06_string_metody.py_ <br>
+
+#### _02_struktury_danych_
+
+_- 01_zbiory.py_ <br>
+_- 02_tuple.py_ <br>
+_- 03_listy.py_ <br>
+_- 04_listy_wycinanie.py_ <br>
+
+_The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder._
 
 ## Website 🌐
 
