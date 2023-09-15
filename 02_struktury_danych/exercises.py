@@ -135,3 +135,128 @@ fruits = [
 print('Last item of first nested list:', fruits[0][2])
 print('First two items of second nested list:', fruits[1][:2])
 print('Last two items of third nested list:', fruits [2][1:])
+
+# %% ćwiczenie 13 
+
+fruits = ['apple', 'banana', 'cherry']
+print('List:', fruits)
+fruits.append('orange')
+print("List with 'orange':", fruits)
+
+# %% ćwiczenie 14
+
+list_1 = [4, 5, 3, 3]
+list_2 = [9, 7]
+
+list_1.extend(list_2)
+print(list_1)
+
+# albo
+
+list_1 += list_2
+print(list_1)
+
+# %% ćwiczenie 15
+
+company_name = ['Apple', 'Microsoft', 'Samsung', 'Netflix', 'Uber']
+new_companies = ['Amazon', 'Google']
+company_name.extend(new_companies)
+
+print(company_name)
+
+# %% ćwiczenie 16
+
+fruits = ['apple', 'banana', 'cherry', 'orange', 'kiwi']
+
+fruits.append('melon')
+print('After appending:', fruits)
+
+fruits.pop(3)
+print('After removing:', fruits)
+
+fruits.reverse()
+print('After reversing:', fruits)
+
+fruits.sort()
+print('After sorting:', fruits)
+
+# %% ćwiczenie 17
+
+number_square = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+print(number_square)
+
+# %% ćwiczenie 18
+
+countries_capitals = {
+    'Polska': 'Warszawa',
+    'Niemcy': 'Berlin',
+    'Czechy': 'Praga',
+}
+
+countries_capitals['Włochy'] = 'Rzym'
+
+stolice = list(countries_capitals.values())
+stolice.sort()
+print(stolice)
+
+# albo
+
+countries_capitals['Włochy'] = 'Rzym'
+sorted_capitals = sorted(list(countries_capitals.values()))
+ 
+print(sorted_capitals)
+
+# %% ćwiczenie 19
+
+fruits = {'apple': 2, 'banana': 3, 'cherry': 5, 'orange': 1}
+
+print('Dictionary:', fruits)
+
+fruits['kiwi'] = 4
+print('After adding:', fruits)
+
+del fruits['orange']
+print('After deleting:', fruits)
+
+print('Keys:', fruits.keys())
+
+print('Values:', fruits.values())
+
+# %% ćwiczenie 20
+
+fruits = {'apple': 2, 'banana': 3}
+
+print('Dictionary before update:', fruits)
+
+fruits.update({'apple':4})
+print('Dictionary after update:', fruits)
+
+fruits['kiwi'] = 1
+print('Dictionary after adding:', fruits)
+
+fruits2 = {'orange':3, 'peach':2}
+fruits.update(fruits2)
+print('Dictionary after merging:', fruits)
+
+# %% ćwiczenie 21
+
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'b': 3, 'c': 4}
+
+dict1.update(dict2)
+print(dict1)
+
+# %% ćwiczenie 22
+
+people = {'Alice': 25, 'Bob': 30, 'Charlie': 35, 'David': 40}
+
+print(people.pop('Bob'))
+print(people)
+
+# %% ćwiczenie 23
+
+people = {'Alice': 25, 'Bob': 30, 'Charlie': 35, 'David': 40}
+
+people.update({'Emma':20})
+print(people['Emma'])
+print(people)

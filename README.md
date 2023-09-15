@@ -27,6 +27,8 @@ _- 01_zbiory.py_ <br>
 _- 02_tuple.py_ <br>
 _- 03_listy.py_ <br>
 _- 04_listy_wycinanie.py_ <br>
+_- 05_listy_metody.py_ <br>
+_- 06_slowniki.py_ <br>
 
 _The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder._
 
