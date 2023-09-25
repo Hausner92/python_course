@@ -14,7 +14,7 @@ text.capitalize()
 # %% zwrócenie tekstu z dużą literą tylko na początku każdego wyrazu
 text.title()
 
-# %% zwrócenie liczby danego ciągu w tekscie
+# %% zwrócenie liczby podanego ciągu w tekscie
 text.count('Python')
 
 # %% wskazuje od jakiego ciągu nasz tekst ma się zaczynać (zwrócenie wrt logicznej)

@@ -12,7 +12,7 @@ _If you want, you can follow my progress with Python._ 🎓
 
 _The code created during the video lesson:_ <br>
 
-#### _01_podstawy_
+#### _01_podstawy_ :file_folder:
 
 _- 01_intro.py_ <br>
 _- 02_input.py_ <br>
@@ -21,7 +21,7 @@ _- 04_wycinanie.py_ <br>
 _- 05_typy_danych.py_ <br>
 _- 06_string_metody.py_ <br>
 
-#### _02_struktury_danych_
+#### _02_struktury_danych_ :file_folder:
 
 _- 01_zbiory.py_ <br>
 _- 02_tuple.py_ <br>
@@ -29,6 +29,12 @@ _- 03_listy.py_ <br>
 _- 04_listy_wycinanie.py_ <br>
 _- 05_listy_metody.py_ <br>
 _- 06_slowniki.py_ <br>
+
+#### 03_przeplyw_programu :file_folder:
+
+_- 01_wartosci_logiczne.py_ <br>
+_- 02_instrukcje_warunkowe.py_ <br>
+_- 03_instrukcje_warunkowe_cd.py_ <br>
 
 _The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder._
 

@@ -32,7 +32,7 @@ print(techs)
 # %% metoda remove usuwa wskazane wartosci ze zbioru
 techs.remove('sas')
 
-# %% metoda pop wyrzuca dowolną wartosc i usuwa ją ze zbioru 
+# %% metoda pop wyrzuca do konsoli dowolną wartosc i usuwa ją ze zbioru 
 techs.pop()
 
 # %% metoda clear czysci nasz zbiór
