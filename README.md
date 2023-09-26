@@ -35,6 +35,7 @@ _- 06_slowniki.py_ <br>
 _- 01_wartosci_logiczne.py_ <br>
 _- 02_instrukcje_warunkowe.py_ <br>
 _- 03_instrukcje_warunkowe_cd.py_ <br>
+_- 04_petle_for.py_ <br>
 
 _The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder._
 

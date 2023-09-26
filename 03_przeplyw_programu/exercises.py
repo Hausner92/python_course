@@ -217,6 +217,101 @@ elif not any(char.islower() for char in password):
     print('The password must contain at least one lowercase letter.')
 else:
     print('The password is complex enough.')
+    
+# %% ćwiczenie 15
+
+for number in range(21):
+    print(number)
+    
+# %% ćwiczenie 16
+
+hashtags = '#weekend#good#time#'
+result = ''
+
+for char in hashtags:
+    if char not in '#':
+        result = result + char
+    elif result:
+        print(result)
+        result = ''
+        
+# %% ćwiczenie 17
+
+sum = 0
+
+for number in range(11):
+    sum = sum + number
+    
+print('The sum of numbers from 1 to 10 is:', sum)
+
+# %% ćwiczenie 18
+
+products = [('T-shirt', 50.00), ('Pants', 100.00), ('Shoes', 150.00)]
+total_amount = 0.0
+
+for product, price in products:
+    total_amount = total_amount + price
+    
+print('The total order amount is:', total_amount)
+
+# albo
+
+products = [('T-shirt', 50.00), ('Pants', 100.00), ('Shoes', 150.00)]
+ 
+total = 0.0
+ 
+for product in products:
+    total += product[1]
+ 
+print('The total order amount is:', total)
+
+# %% ćwiczenie 19
+
+products = [('T-shirt', 50.00), ('Pants', 100.00), ('Shoes', 150.00)]
+total_amount = 0.0
+
+if len(products) > 1:
+    discount = 0.1
+else:
+    discount = 0.0
+    
+for product, price in products:
+    total_amount = total_amount + price
+
+total_amount_after_discount = total_amount - (total_amount * discount)
+print(
+      'The total order amount after applying the discount is:', total_amount_after_discount
+      )
+
+# %% ćwiczenie 20
+
+products = [
+    ('T-shirt', 'Clothing', 50.00),
+    ('Pants', 'Clothing', 100.00),
+    ('Shoes', 'Footwear', 150.00)
+]
+
+for product, category, price in products:
+    if category == 'Clothing':
+        print(product, price)
+        
+# albo 
+
+products = [
+    ('T-shirt', 'Clothing', 50.00),
+    ('Pants', 'Clothing', 100.00),
+    ('Shoes', 'Footwear', 150.00)
+]
+ 
+category = 'Clothing'
+ 
+for product in products:
+    if product[1] == category:
+        print(product[0], product[2])
+    
+    
+    
+    
         
 
 
