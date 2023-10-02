@@ -308,6 +308,113 @@ category = 'Clothing'
 for product in products:
     if product[1] == category:
         print(product[0], product[2])
+        
+# %% ćwiczenie 21
+
+products = [
+    ('Shoes', 'Footwear', 150.00),
+    ('T-shirt', 'Clothing', 50.00),
+    ('Pants', 'Clothing', 100.00),
+]
+
+category = 'Clothing'
+
+for product in products:
+    if product[1] == category:
+        print(f'The first product is {product[0]}.')
+        break
+    
+# %% ćwiczenie 22
+
+cars = [
+    {'model': 'Tesla', 'mileage': 15000, 'battery_level': 100},
+    {'model': 'Nissan', 'mileage': 30000, 'battery_level': 75},
+    {'model': 'BMW', 'mileage': 5000, 'battery_level': 100},
+    {'model': 'Ford', 'mileage': 20000, 'battery_level': 50}
+]
+
+for car in cars:
+    if car['battery_level'] == 100:
+        print('The first car with a full charge is:', car['model'])
+        break
+
+# %% ćwiczenie 23
+
+panels = [
+    {'id': 1, 'output_power': 200},
+    {'id': 2, 'output_power': 150},
+    {'id': 3, 'output_power': 250},
+    {'id': 4, 'output_power': 180},
+]
+
+minimum_power = 200
+
+for panel in panels:
+    if panel['output_power'] > minimum_power:
+        print(
+            f"The first panel with an output power greater than {minimum_power} is: " 
+            f"{panel['id']}"
+            )
+        break
+    
+# %% ćwiczenie 24
+
+missions = [
+    {
+        'name': 'Apollo 11',
+        'date': '20.07.1969',
+        'status': 'completed',
+    },
+    {
+        'name': 'Mars Pathfinder',
+        'date': '04.07.1997',
+        'status': 'completed',
+    },
+    {
+        'name': 'Chang\'e 4',
+        'date': '03.01.2019',
+        'status': 'in progress',
+    },
+    {
+        'name': 'Cassini',
+        'date': '15.10.1997',
+        'status': 'completed',
+    },
+]
+
+for mission in missions:
+    if mission['status'] == 'in progress':
+        continue
+    print('Mission', mission['name'], 'took place on', mission['date'])
+    
+# %% ćwiczenie 25
+
+trainings = [
+    {'name': 'Basic marksmanship', 'rank': 'Private'},
+    {'name': 'Infantry tactics', 'rank': 'Corporal'},
+    {'name': 'Art of war', 'rank': 'Sergeant'},
+    {'name': 'Heavy weapons specialist', 'rank': 'Captain'},
+    {'name': 'Advanced first aid', 'rank': 'Private'},
+    {'name': 'Combat engineering', 'rank': 'Corporal'},
+    {'name': 'Field intelligence', 'rank': 'Sergeant'},
+    {'name': 'Military law', 'rank': 'Captain'},
+    {'name': 'Parachuting', 'rank': 'Private'},
+    {'name': 'Amphibious assault', 'rank': 'Corporal'},
+    {'name': 'Counterterrorism', 'rank': 'Sergeant'},
+    {'name': 'Military diplomacy', 'rank': 'Captain'},
+]
+
+military_rank = 'Sergeant'
+
+for training in trainings:
+    if training['rank'] != military_rank:
+        continue
+    print('Training for rank', training['rank'], 'is:', training['name'])
+        
+    
+
+
+
     
     
     
