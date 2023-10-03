@@ -38,6 +38,9 @@ _- 03_instrukcje_warunkowe_cd.py_ <br>
 _- 04_petle_for.py_ <br>
 _- 05_break.py_ <br>
 _- 06_continue.py_ <br>
+_- 07_przyklady.py_ <br>
+_- 08_while.py_ <br>
+_- 09_while_przyklady.py_ <br>
 
 _The practice exercises code can be found in the <b>"exercises.py"</b> file in each folder._
 

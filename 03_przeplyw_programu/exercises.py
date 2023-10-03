@@ -411,7 +411,119 @@ for training in trainings:
         continue
     print('Training for rank', training['rank'], 'is:', training['name'])
         
+# %% ćwiczenie 26
+rooms = [
+    {
+        'number': 101,
+        'available_dates': [
+            '2023-05-10',
+            '2023-05-11',
+            '2023-05-12',
+        ],
+    },
+    {
+        'number': 102,
+        'available_dates': [
+            '2023-05-10',
+            '2023-05-11',
+        ],
+    },
+    {
+        'number': 103,
+        'available_dates': [
+            '2023-05-11',
+            '2023-05-12',
+            '2023-05-13',
+        ],
+    },
+    {
+        'number': 105,
+        'available_dates': [
+            '2023-05-10',
+            '2023-05-11',
+            '2023-05-12',
+            '2023-05-13',
+        ],
+    },
+    {
+        'number': 107,
+        'available_dates': [
+            '2023-05-11',
+            '2023-05-12',
+        ],
+    },
+    {
+        'number': 110,
+        'available_dates': [
+            '2023-05-10',
+            '2023-05-11',
+            '2023-05-12',
+            '2023-05-13',
+        ],
+    },
+]
+
+start_date = '2023-05-11'
+end_date = '2023-05-13'
+ 
+for room in rooms:
+    if (
+        start_date not in room['available_dates']
+        or end_date not in room['available_dates']
+    ):
+        continue
+    print(f"Room number {room['number']} is available.")
     
+# %% ćwiczenie 27
+
+proportions = {
+    'flour': 500,
+    'salt': 4,
+    'sugar': 200,
+    'butter': 150
+}
+
+amount_of_dough = 3000
+counter = 0
+ingredients = {}
+ 
+while counter < amount_of_dough:
+    for ingredient, amount in proportions.items():
+        if ingredient not in ingredients:
+            ingredients[ingredient] = amount
+        else:
+            ingredients[ingredient] += amount
+        counter += amount
+ 
+print('To prepare', amount_of_dough, 'g of dough, you need:')
+for ingredient, amount in ingredients.items():
+    print(ingredient.capitalize(), '-', amount, 'g')
+    
+# %% ćwiczenie 28
+
+fuel = 100
+fuel_consumption_rate = 10
+time = 0
+
+while fuel > 0:
+    print(f'Fuel remaining: {fuel} units.')
+    fuel -= fuel_consumption_rate
+    time += 1
+ 
+print('End of flight.')
+
+# %% ćwiczenie 29
+
+hour = 8
+solar_power = 50
+battery_capacity = 500
+battery_level = 0
+
+while hour < 15 and battery_level < battery_capacity:
+    battery_level += solar_power
+    hour += 1
+print(f'The solar battery charge level is: {battery_level} Watt-hours.')
+
 
 
 
